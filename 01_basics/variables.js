@@ -31,3 +31,5 @@ console.table([
   "UPDATED Employee City:",
   employeeCity,
 ]);
+
+console.table([accountID, employeeName, accountPassword, employeeCity]);
