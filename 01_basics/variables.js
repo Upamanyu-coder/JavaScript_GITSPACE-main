@@ -3,6 +3,20 @@ let employeeName = "Kreetika";
 var accountPassword = "Kreetika@123";
 employeeCity = "Bangalore";
 
+/*
+  const, let, var
+  const - used for constants, cannot be reassigned
+  let - used for variables that can be reassigned
+  var - used for variables that can be reassigned, but has function scope
+  Prefer to use const for constants and let for variables that can change.
+
+  const is block scoped, let is block scoped, var is function scoped.
+
+  
+Prefer not use to var
+  because of issue in block and function scope
+    */
+
 console.log("Account ID:", accountID);
 console.log("Employee Name:", employeeName);
 
